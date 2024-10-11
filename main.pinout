@@ -1,0 +1,20 @@
+    clock          =   clk_1hz;
+    set            =   btn1;
+    
+// Mostrando os segundos
+    countS[0]      =   led0;
+    countS[1]      =   led1;
+    countS[2]      =   led2;
+    countS[3]      =   led3;
+    countS[4]      =   led4;
+    countS[5]      =   led5;
+    countS[6]      =   led6;
+
+// Mapeamento dos bits de saída do decodificador para o display de 7 segmentos
+    dp7[0]      =   segd0.g_on;
+    dp7[1]      =   segd0.f_on;
+    dp7[2]      =   segd0.e_on;
+    dp7[3]      =   segd0.d_on;
+    dp7[4]      =   segd0.c_on;
+    dp7[5]      =   segd0.b_on;
+    dp7[6]      =   segd0.a_on;
